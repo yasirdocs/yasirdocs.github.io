@@ -1,0 +1,65 @@
+body{
+    background-color: #D0D0D0;
+}
+
+.menu{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.col-text{
+    padding-top: 15vh;
+}
+
+.col-text h1,h2,h3,h4,h6{
+    font-family: 'adobe arabic';
+    font-weight: 600;
+    font-style: italic;
+}
+
+.col-text h1{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 90px;
+    letter-spacing: 5px;
+    width: 740px;
+    z-index: 9999;
+}
+
+.col-text h2{
+    padding-top:40px;
+}
+
+.col-text h4 {
+    padding-top: 20px;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+
+.banner{
+    max-width:900px;
+    position: absolute;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url("Group 1.png");
+    background-size: 700px;
+    background-repeat: no-repeat;
+  }
+
+  .col-text h1{
+      max-width: 320px;
+      line-height: 50px;
+      font-size: 50px;
+  }
+  
+}
