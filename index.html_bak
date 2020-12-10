@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Yasir.">
+    <meta name="author" content="yasirarif">
+    <meta name="keyword" content="it, consulting, konsultan, website, application, aplikasi, programmer, tax, payroll, accounting, akutansi, software, Portofolio, yasirarif, sir, arif, muhammad, yasir, yasir arif">
+
+    <meta property="og:title" content="Web Developer" />
+    <meta property="og:url" content="yasirdocs.github.io" />
+    <meta property="og:site_name" content="yasirarif" />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" href="data:image/png;base64,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">
+    <title>Yasir Arif - Web Dev</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121915264-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-121915264-1');
+    </script>
+
+    <style>
+        .col{
+            margin-top: 40px;
+        }
+
+        .title{
+            font-size: 40pt;
+            font-family: 'Nunito Bold', sans-serif;
+            letter-spacing: 2.5pt;
+            text-shadow: 4px 4px 16px rgba(0,0,0,0.8);
+        }
+
+        p{
+            font-size: 18pt;
+            font-family: 'Nunito', sans-serif;
+        }
+
+
+
+        body {
+            background-color: #f5f5f1;
+            font-family: 'Nunito', sans-serif;
+            line-height: 2em;
+            color: #221f1f;
+            margin: 0;
+        }
+
+        body.bg-dark {
+            background: #221f1f;
+            color: white;
+        }
+
+        body.bg-dark #logo path {
+            stroke: white;
+        }
+
+        body.bg-dark .key {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .container-sm {
+            width: 100%;
+            max-width: 500px;
+            padding: 40px 60px;
+            box-sizing: border-box;
+        }
+
+        a {
+            /*box-shadow: inset 0 -0.33333em rgba(157, 201, 255, 0.32);*/
+            box-shadow: inset 0 -0.33333em rgba(157, 201, 255, 0.32);
+            transition: all 200ms;
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background: rgba(157, 201, 255, 0.32);
+            /*color: white;*/
+            cursor: pointer;
+            box-shadow: none;
+        }
+
+        *::selection {
+            background: #221f1f;
+            color: white;
+        }
+
+        footer {
+            position: relative;
+            width: 100%;
+            padding: 40px 0;
+        }
+
+        .bg-dark-theme {
+            position: relative;
+        }
+        
+        .bg-dark-theme .key {
+            position: relative;
+            padding: 0 10px;
+            background-color: rgba(0,0,0,0.1);
+            color: black;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        @media screen and (max-width: 500px){
+            .bg-dark-theme {display: none;}
+            .wrapper {
+                padding: 30px;
+            }
+        }
+
+        .btn-social,a.btn-social{
+            border-radius:32%;
+            color:#fff!important;
+            display:inline-block;
+            height:40px;
+            line-height:40px;
+            margin:15px 2px;
+            text-align:center;
+            text-decoration:none;
+            transition:background-color .3s;
+            webkit-transition:background-color .3s;
+            width:40px;
+            font-size:20px;
+        }
+        .btn-social .fa,.btn-social i{
+            backface-visibility:hidden;
+            moz-backface-visibility:hidden;
+            ms-transform:scale(1);
+            o-transform:scale(1);
+            transform:scale(1);
+            transition:all .25s;
+            webkit-backface-visibility:hidden;
+            webkit-transform:scale(1);
+            webkit-transition:all .25s;
+        }
+        .btn-social:focus,.btn-social:hover{
+            color:#fff;
+            outline:0;
+            text-decoration:none
+        }
+
+        .btn-social:focus .fa,.btn-social:focus i,.btn-social:hover .fa,.btn-social:hover i{
+            ms-transform:scale(1.3);
+            o-transform:scale(1.3);
+            transform:scale(1.3);
+            webkit-transform:scale(1.3)
+        }
+
+        .btn-social.btn-xs{
+            font-size:9px;
+            height:24px;
+            line-height:13px;
+            margin:6px 2px;
+            width:24px
+        }
+
+        .btn-social.btn-sm{
+            font-size:13px;
+            height:36px;
+            line-height:18px;
+            margin:6px 2px;
+            width:36px
+        }
+
+        .btn-social.btn-lg{font-size:22px;
+                    height:72px;
+                line-height:40px;
+                margin:10px 6px;
+                width:72px}
+
+        .btn-email{
+            background-color:#44c456
+        }
+        .btn-email:hover{
+            background-color:#6bd079
+        }.btn-facebook{background-color:#3b5998
+            }.btn-facebook:hover{background-color:#4c70ba
+            }.btn-github{background-color:#4183c4
+            }.btn-github:hover{background-color:#689cd0
+            }.btn-google-plus{background-color:#dd4b39
+            }.btn-google-plus:hover{background-color:#e47365
+            }.btn-instagram{background-color:#3f729b
+            }.btn-instagram:hover{background-color:#548cb9
+            }.btn-linkedin{background-color:#0976b4
+            }.btn-linkedin:hover{background-color:#0b96e5
+            }.btn-twitter{background-color:#55acee
+            }.btn-twitter:hover{background-color:#83c3f3
+            }.btn-wechat{background-color:#98d11c
+            }.btn-wechat:hover{background-color:#afe53b
+            }
+
+    .project{
+        font-size: 14pt;
+    }
+    </style>
+</head>
+<body class="">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="pt-4 title">MUHAMMAD YASIR ARIF</h1>
+                <span>Saya membuat, oleh karena itu saya belajar, saya menulis, dan melakukan apa pun yang saya suka.</span>
+                <p class="mt-3">
+                    Halo, Saya MUHAMMAD YASIR ARIF
+                    <br>
+                    panggil saya <b>YASIR</b>. <br>
+                    Saya membuat web dengan menggunakan PHP, MYSQL, GIT, JAVASCRIPT,  <br> dan masih banyak lagi.
+                </p>
+                <br>
+                <h4><b>Project terbaru<b></h4>
+                    <p class="project">
+                        Blog : <a href="https://restudio.id" target="_blank">Re Studio</a><br>
+                    </p>
+                <h6 class="mt-5"> Saya suka dengan hal-hal yang baru dan membagikan hal-hal yang positif baik itu teknologi ataupun yang lainnya, maka dari itu jangan sungkan untuk diskusi dengan saya.</h6>
+
+                <div class="social">
+                    <a href="https://facebook.com/87ajip" target="_blank" class="btn-social btn-facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/yasirdocs" target="_blank" class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
+                    <a href="https://instagram.com/_yasirarif" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="https://bit.ly/_yasirarifs" target="_blank" class="btn-social btn-wechat"><i class="fa fa-whatsapp"></i></a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
